@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Merissa's Portfolio</title>
+  <style>
+    p{
+
+    }
+    body {
+      font-family: "Tahoma";
+      font-size: 0.875em; /* 14px/16=0.875em */
+      background-color: #D2D5D7;
+    }
+    h1 {
+      color: #1F85DE;
+    }
+    h2 {
+      color: #896B8A;
+    }
+    h3 {
+      color: #6B7C8A;
+    }
+    p {
+      color: #6C8A6B;
+    }
+    li {
+      color: #40733E;
+    }
+    img {
+      border-style: dotted;
+      border-color: #8A7A6B;
+      border-width: 3px;
+      width:12rem;
+      margin: 1rem;
+      padding: .5rem
+    }
+
+  </style>
+  </head>
+</html>
