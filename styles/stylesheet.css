@@ -46,22 +46,31 @@
     padding: .5rem;
   }
 
-  /* unvisited link, Bluestone */
- a:link {
-    color: #577284;
+  /* unvisited link, Eden */
+  a:link, a:visited {
+    border-style: solid;
+    border-color: #77212E;
+    background-color: #F96714;
+    /*Orange Tiger*/
+    color: white;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
 
   /* visited link, Eden */
-  a:visited {
-    color: #264E36;
-  }
+   a:visited {
+     color: #264E36;
+   }
 
-  /* mouse over link, Orange Tiger*/
-  a:hover {
-    color: #F96714;
-  }
+  /* mouse over link, Bluestone*/
+    a:hover {
+    color: #577284;
+ }
 
   /* selected link, Fruit Dove */
-  a:active {
+    a:active {
     color: #CE5B78;
   }
