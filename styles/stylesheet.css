@@ -18,12 +18,18 @@ h2 {
   font-family: 'Alice', serif;
   font-size: 2rem;
   color: #2a293e;
+  padding: 1rem;
+  border: none;
+  margin: 1rem;
 }
 
 h3 {
   font-family: 'Alice', serif;
   font-size: 1.5rem;
   color: #2a293e;
+  padding: .5rem;
+  border: none;
+  margin: .5rem;
 }
 
 .menu {
@@ -33,9 +39,40 @@ h3 {
 ul {
   list-style: none;
 }
+/*ul.my-list {
+  list-style: bullets;
+}*/
+.me {
+  width: 30%;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align- content: center;
+}
+
+.lesson-box {
+  border-style: double solid double;
+  border-color: #77212E;
+  /*Biking Red*/
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+}
 
 p {
   color: #797b3a;
+  padding: 1rem;
+  border: none;
+  margin: 1rem;
+}
+
+.assignment {
+  padding: 1em;
+  border: solid;
+  margin: 1em;
+  width: 25%;
 }
 
 li {
@@ -43,10 +80,6 @@ li {
 }
 
 img {
-  border-style: double solid double;
-  border-color: #77212E;
-  /*Biking Red*/
-  border-width: 3px;
   width: 12rem;
   margin: 1rem;
   padding: .5rem;
