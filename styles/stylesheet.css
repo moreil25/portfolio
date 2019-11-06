@@ -1,27 +1,27 @@
   body {
-    font-family: "Trebuchet";
-    font-size: 14px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1rem;
     background-color: #F5D6C6;
     /*Creme de Peche*/
   }
 
   h1 {
-    font-family: "Georgia";
-    font-size: 30px;
+    font-family: 'Alice', serif;
+    font-size: 3rem;
     color: #77212E;
     /*Biking Red*/
   }
 
   h2 {
-    font-family: "Georgia";
-    font-size: 18px;
+    font-family: 'Alice', serif;
+    font-size: 2rem;
     color: #5A3E36;
   /*Rocky Road*/
   }
 
   h3 {
-    font-family: "Georgia";
-    font-size: 16px;
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
     color: #935529;
     /*Sugar Almond*/
   }
