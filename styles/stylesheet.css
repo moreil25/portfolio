@@ -1,76 +1,81 @@
-  body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1rem;
-    background-color: #F5D6C6;
-    /*Creme de Peche*/
-  }
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1rem;
+  background-color: #f3e0be;
+}
 
-  h1 {
-    font-family: 'Alice', serif;
-    font-size: 3rem;
-    color: #77212E;
-    /*Biking Red*/
-  }
+h1 {
+  font-family: 'Alice', serif;
+  font-size: 3rem;
+  color: #2a293e;
+  background-color: #9f9c99;
+  padding: 2rem;
+  border: none;
+  margin: 2rem;
+}
 
-  h2 {
-    font-family: 'Alice', serif;
-    font-size: 2rem;
-    color: #5A3E36;
-  /*Rocky Road*/
-  }
+h2 {
+  font-family: 'Alice', serif;
+  font-size: 2rem;
+  color: #2a293e;
+}
 
-  h3 {
-    font-family: 'Alice', serif;
-    font-size: 1.5rem;
-    color: #935529;
-    /*Sugar Almond*/
-  }
+h3 {
+  font-family: 'Alice', serif;
+  font-size: 1.5rem;
+  color: #2a293e;
+}
 
-  p {
-    color: #2A4B7C;
-    /*Galaxy Blue*/
-  }
+.menu {
+  list-style: none;
+}
 
-  li {
-    color: #2A4B7C;
-    /*Galaxy Blue*/
-  }
+ul {
+  list-style: none;
+}
 
-  img {
-    border-style: double solid double;
-    border-color: #77212E;
-    /*Biking Red*/
-    border-width: 3px;
-    width: 12rem;
-    margin: 1rem;
-    padding: .5rem;
-  }
+p {
+  color: #797b3a;
+}
 
-  /* unvisited link, Eden */
-  a:link, a:visited {
-    border-style: solid;
-    border-color: #77212E;
-    background-color: #F96714;
-    /*Orange Tiger*/
-    color: white;
-    margin: .5rem;
-    padding: .5rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+li {
+  color: #797b3a;
+}
 
-  /* visited link, Eden */
-   a:visited {
-     color: #264E36;
-   }
+img {
+  border-style: double solid double;
+  border-color: #77212E;
+  /*Biking Red*/
+  border-width: 3px;
+  width: 12rem;
+  margin: 1rem;
+  padding: .5rem;
+}
 
-  /* mouse over link, Bluestone*/
-    a:hover {
-    color: #577284;
- }
+/* unvisited link, Eden */
+a:link, a:visited {
+  border-style: solid;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  color: #ffffff;
+  margin: .5rem;
+  padding: .5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
-  /* selected link, Fruit Dove */
-    a:active {
-    color: #CE5B78;
-  }
+/* visited link, Eden */
+  a:visited {
+  color: #264E36;
+}
+
+/* mouse over link, Bluestone*/
+a:hover {
+  color: #577284;
+}
+
+/* selected link, Fruit Dove */
+a:active {
+  color: #CE5B78;
+}
