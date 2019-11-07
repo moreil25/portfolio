@@ -1,50 +1,90 @@
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   background-color: #f3e0be;
 }
 
 h1 {
   font-family: 'Alice', serif;
-  font-size: 3rem;
+  font-size: 3em;
   color: #2a293e;
   background-color: #9f9c99;
-  padding: 2rem;
+  padding: 2em;
   border: none;
-  margin: 2rem;
+  margin: 2em;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Alice', serif;
-  font-size: 2rem;
+  font-size: 2em;
   color: #2a293e;
-  padding: 1rem;
+  padding: .5em .5em .25em .5em;
   border: none;
-  margin: 1rem;
+  margin: .25em .5em .5em .5em;
 }
 
 h3 {
   font-family: 'Alice', serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: #2a293e;
-  padding: .5rem;
+  padding: .5em;
   border: none;
-  margin: .5rem;
+  margin: .5em;
 }
 
-.menu {
+.menu-box {
   list-style: none;
+  width: 100%;
+  float: left;
+  display: block;
 }
 
 ul {
   list-style: none;
 }
-/*ul.my-list {
-  list-style: bullets;
-}*/
-.me {
-  width: 30%;
+
+aside {
+  float: right;
+  padding: .5em;
+  border: none;
+  margin: .5em;
+  width: 45%;
+  text-align: left;
 }
+
+.headline {
+  text-align: center;
+  background-color: #9f9c99;
+  padding: none;
+  border: none;
+  margin: none;
+  width: 90%;
+}
+
+.subhead {
+  text-align: center;
+  padding: none;
+  border: none;
+  margin: none;
+  width: 90%;
+}
+
+.story {
+  text-align: center;
+  padding: none;
+  border: none;
+  margin: none;
+  width: 90%;
+}
+
+.me {
+  width: 33%;
+  padding: .5em;
+  border: solid;
+  margin: .5em;
+}
+
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -55,7 +95,6 @@ ul {
 .lesson-box {
   border-style: double solid double;
   border-color: #77212E;
-  /*Biking Red*/
   background-color: #9f9c99;
   border-width: 3px;
   text-align: center;
@@ -63,9 +102,10 @@ ul {
 
 p {
   color: #797b3a;
-  padding: 1rem;
+  font-size: 1em;
+  padding: .5em;
   border: none;
-  margin: 1rem;
+  margin: .5em;
 }
 
 .assignment {
@@ -85,30 +125,53 @@ img {
   padding: .5rem;
 }
 
-/* unvisited link, Eden */
+.dog {
+  width: 90%;
+  padding: .25em;
+  border: none;
+  margin: .25em;
+}
+
+figure.doghouse {
+  width: 33%;
+  padding: .5em;
+  border: solid;
+  margin: .5em;
+}
+
+figcaption {
+  text-align: center;
+}
+
 a:link, a:visited {
   border-style: solid;
   border-color: #77212E;
   background-color: #9f9c99;
   color: #ffffff;
-  margin: .5rem;
-  padding: .5rem;
+  margin: .5em;
+  padding: .5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
-
-/* visited link, Eden */
-  a:visited {
+a:visited {
   color: #264E36;
 }
 
-/* mouse over link, Bluestone*/
 a:hover {
   color: #577284;
 }
 
-/* selected link, Fruit Dove */
 a:active {
   color: #CE5B78;
+}
+
+.fa-arrow-circle-left, .fa-lightbulb, .fa-book-open, .fa-paw {
+  padding: .25em;
+  border: none;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
 }
