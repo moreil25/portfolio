@@ -32,6 +32,7 @@ h3 {
   border: none;
   margin: .5em;
 }
+/* could strip the same parts from each h1-h3 and make a commonailty section*/
 
 nav ul {
   display: flex;
