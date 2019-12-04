@@ -7,6 +7,11 @@ body {
   background-color: #f3e0be;
 }
 
+header {
+  width: 100%;
+  margin: .25em .25em 0 .25em;
+}
+
 h1 {
   font-family: 'Alice', serif;
   font-size: 3em;
@@ -14,7 +19,6 @@ h1 {
   background-color: #9f9c99;
   padding: 2em;
   border: none;
-  margin: .25em .25em 0 .25em;
   text-align: center;
 }
 
@@ -44,9 +48,10 @@ nav ul {
   list-style: none;
   color: #9f9c99;
   background-color: #2a293e;
+  width: 100%;
   padding: 2em;
   border: none;
-  margin: 0 .25em .25em .25em;
+  margin: 0 .25em .5em .25em;
   text-align: center;
 }
 
@@ -66,7 +71,7 @@ ul.my-list {
 aside {
   float: right;
   padding: 1em;
-  border: none;
+  border: 3px double #797b3a;
   margin: 1em;
   width: 45%;
   text-align: left;
@@ -79,9 +84,9 @@ div.lesson-box:nth-child(odd) {
 .headline {
   text-align: center;
   background-color: #9f9c99;
-  padding: 0;
+  padding: .5em;
   border: none;
-  margin: 0;
+  margin: 1em;
   width: 90%;
 }
 
@@ -95,16 +100,16 @@ div.lesson-box:nth-child(odd) {
 
 .story {
   text-align: center;
-  padding: 0;
+  padding: .25em;
   border: none;
-  margin: 0;
+  margin: .5em;
   width: 90%;
 }
 
 .me {
   width: 33%;
   padding: .5em;
-  border: solid;
+  border: 3px solid #797b3a;
   margin: .5em;
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -127,11 +132,11 @@ div.lesson-box:nth-child(odd) {
 }*/
 
 .lesson-box {
-  border-style: double solid double;
-  border-color: #77212E;
+  border: 3px double #797b3a;
   background-color: #9f9c99;
-  border-width: 3px;
   text-align: center;
+  padding: .25em;
+  margin: .5em;
   /*grid-column: 1;
   grid-row: 2 / 3;*/
 }
@@ -153,14 +158,14 @@ p {
   margin: .5em;
 }
 
-a.assignment {
+.assignment {
   padding: 0;
   border: solid;
   margin: 0;
   width: 10%;
 }
 
-a.first {
+.first {
   text-align: center;
 }
 /*li {
@@ -171,10 +176,6 @@ img {
   width: 12rem;
   margin: 1rem;
   padding: .5rem;
-}
-
-a.pup-news {
-  text-align: center;
 }
 
 .dog {
@@ -194,7 +195,7 @@ a.pup-news {
   transform: rotate(180deg);
 }
 
-figure.doghouse {
+.doghouse {
   width: 33%;
   padding: .5em;
   border: none;
@@ -213,7 +214,7 @@ figcaption {
   justify-content: center;
 }
 
-figure.dining {
+.dining {
   width: 33%;
   padding: .5em;
   border: none;
