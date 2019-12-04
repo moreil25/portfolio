@@ -121,13 +121,29 @@ div.lesson-box:nth-child(odd) {
   align-content: center;
 }
 
+/*.grid-container {
+  display: grid;
+  grid-gap: 1em 1em;
+}*/
+
 .lesson-box {
   border-style: double solid double;
   border-color: #77212E;
   background-color: #9f9c99;
   border-width: 3px;
   text-align: center;
+  /*grid-column: 1;
+  grid-row: 2 / 3;*/
 }
+
+/*.lesson-box-08 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 2 / 3;*/
 
 p {
   color: #797b3a;
@@ -242,4 +258,34 @@ a:active {
 
 footer {
   text-align: center;
+}
+
+/*Lesson 09 styling for form*/
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  curser: pointer;
+  height: 0;
+  width: 0;
+}
+
+input[type=submit] {
+  width: auto;
+  background-color: SteelBlue;
 }

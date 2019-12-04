@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Request</title>
+    <script src="https://kit.fontawesome.com/f399a12497.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alice|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Merissa's Portfolio</h1>
+    </header>
+
+    <nav class="menu-box">
+      <ul>
+        <li><a class="menu-links" href="index.html">Home</a></li>
+        <li><a class="menu-links" href="aboutme.html">About Me</a></li>
+        <li><a class="menu-links" href="form.html">Request</a></li>
+      </ul>
+    </nav>
+
+    <form method="GET">
+      <label>Your name:
+        <input type="text" name="requestName">
+      </label>
+
+      <label>Your email:
+        <input type="email" name="requestEmail">
+      </label>
+
+      <fieldset>
+        <legend>I Want More:</legend>
+        <label>
+          <input type="checkbox" name="type" value="dogs">Cheyenne Pictures
+          <span class="checkmark"></span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="type" value="webdev">Industry News
+          <span class="checkmark"></span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="type" value="pupnews">Dog News
+          <span class="checkmark"></span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="type" value="blog">Personal Blogging
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>I Want Updates by Email:</legend>
+          <label>
+            <input type="radio" name="updates" value="yes">Yes
+          </label>
+
+          <label>
+            <input type="radio" name="updates" value="no">No
+          </label>
+        </fieldset>
+
+        <label>I Want New Content:
+          <select name="content">
+            <option value="">Please select</option>
+            <option value="often">Daily</option>
+            <option value="some">Weekly</option>
+            <option value="few">Monthly</option>
+          </select>
+        </label>
+
+      <label>Comments:
+        <input type="textarea" name="requestComments" rows="4" cols="50">
+      </label>
+
+      <input type="submit" value="Share with Merissa">
+
+    </form>
+
+
+
+
+
+
+
+
+  </body>
+</html>
