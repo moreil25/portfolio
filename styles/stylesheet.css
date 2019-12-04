@@ -277,15 +277,13 @@ fieldset {
 fieldset input {
   display: inline;
 }
-.checkbox input {
-  position: absolute;
-  opacity: 0;
-  curser: pointer;
-  height: 0;
-  width: 0;
+
+input[type=text]:focus {
+background-color: blue;
 }
 
 input[type=submit] {
   width: auto;
-  background-color: SteelBlue;
+  color: #2a293e;
+  background-color: #9f9c99;
 }

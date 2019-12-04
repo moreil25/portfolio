@@ -22,38 +22,35 @@
     </nav>
 
     <form method="GET">
-      <label>Your name:
-        <input type="text" name="requestName">
+      <label>Your Name:
+        <input type="text" name="requestName" placeholder="Your Name">
       </label>
 
-      <label>Your email:
-        <input type="email" name="requestEmail">
+      <label>Your Email:
+        <input type="email" name="requestEmail" placeholder="email@email.com">
       </label>
 
-      <fieldset>
+      <fieldset class="checkbox">
         <legend>I Want More:</legend>
         <label>
           <input type="checkbox" name="type" value="dogs">Cheyenne Pictures
           <span class="checkmark"></span>
         </label>
-
         <label>
           <input type="checkbox" name="type" value="webdev">Industry News
           <span class="checkmark"></span>
         </label>
-
         <label>
           <input type="checkbox" name="type" value="pupnews">Dog News
           <span class="checkmark"></span>
         </label>
-
         <label>
           <input type="checkbox" name="type" value="blog">Personal Blogging
           <span class="checkmark"></span>
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="dot">
         <legend>I Want Updates by Email:</legend>
           <label>
             <input type="radio" name="updates" value="yes">Yes
@@ -74,7 +71,7 @@
         </label>
 
       <label>Comments:
-        <input type="textarea" name="requestComments" rows="4" cols="50">
+        <input type="textarea" name="requestComments" rows="100" cols="100" placeholder="Comments">
       </label>
 
       <input type="submit" value="Share with Merissa">
