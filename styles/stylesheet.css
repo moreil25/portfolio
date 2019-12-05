@@ -271,6 +271,7 @@ img {
   background-color: #264E36;
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
+
 .doghouse {
   width: 33%;
   padding: .5em;
@@ -286,12 +287,17 @@ figcaption {
   border: 3px solid #264e36;
   display: grid;
   grid-gap: 1em 1em;
-  width: 50%;
+  width: 66%;
 }
 
+img.projects {
+  width: 66%;
+  margin: 1rem;
+  padding: .5rem;
+}
 
 .dining-1 {
-  width: 40%;
+  width: auto;
   padding: .5em;
   border: none;
   margin: .5em;
@@ -299,13 +305,31 @@ figcaption {
   grid-row: 1;
 }
 
-.dining-2{
-  width: 40%;
+.dining-2 {
+  width: auto;
   padding: .25em;
   border: none;
   margin: .25em;
   grid-column: 2;
   grid-row: 1;
+}
+
+.textile {
+  width: auto;
+  padding: .25em;
+  border: none;
+  margin: .25em;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.glass {
+  width: auto;
+  padding: .25em;
+  border: none;
+  margin: .25em;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 a:link, a:visited {
