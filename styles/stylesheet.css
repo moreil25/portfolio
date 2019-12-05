@@ -39,6 +39,7 @@ h3 {
   border: none;
   margin: .5em;
 }
+
 /* could strip the same parts from each h1-h3 and make a commonailty section*/
 
 nav ul {
@@ -126,6 +127,11 @@ div.lesson-box:nth-child(odd) {
   align-content: center;
 }
 
+.flex-container-2 {
+  display: flex;
+  flex-flow: column wrap;
+  float: right;
+}
 /*.grid-container {
   display: grid;
   grid-gap: 1em 1em;
@@ -229,7 +235,6 @@ figcaption {
 }
 
 a:link, a:visited {
-  /*background-color: #9f9c99;*/
   color: #264E36;
   padding: .5em;
   border: none;
@@ -271,6 +276,11 @@ button, input, select, textarea {
   margin: 1rem;
 }
 
+form {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 fieldset {
   border: none;
 }
@@ -279,8 +289,61 @@ fieldset input {
   display: inline;
 }
 
-input[type=text]:focus {
-background-color: blue;
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  curser: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 3em;
+  margin-top: .75em;
+  cursor: crosshair;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5em;
+  width: 1.5em;
+  background-color: #2a293e;
+}
+
+.checkbox label:hover input ~ .checkmark {
+  background-color: #9f9c99;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #797b3a;
+}
+
+.checkmark:after {
+  content:"";
+  position: absolute;
+  display: none;
+}
+
+.checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark:after {
+  left: .5em;
+  top: .5em;
+  width: .5em;
+  height: .5em;
+  border: solid white;
+  border-width: .5px;
+  background-color: #ffffff;
 }
 
 input[type=submit] {
