@@ -120,44 +120,106 @@ div.lesson-box:nth-child(odd) {
   opacity: .5;
 }
 
-.flex-container {
+/*.flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
-}
+}*/
 
 .flex-container-2 {
   display: flex;
   flex-flow: column wrap;
   float: right;
 }
-/*.grid-container {
+
+.grid-container {
   display: grid;
   grid-gap: 1em 1em;
-}*/
-
-.lesson-box {
-  border: 3px double #797b3a;
-  background-color: #9f9c99;
-  text-align: center;
-  padding: .25em;
-  margin: .5em;
-  /*grid-column: 1;
-  grid-row: 2 / 3;*/
 }
 
-/*.lesson-box-08 {
+.lesson-box-08 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+.lesson-box-07 {
   border-style: double solid double;
   border-color: #77212E;
   background-color: #9f9c99;
   border-width: 3px;
   text-align: center;
   grid-column: 2;
-  grid-row: 2 / 3;*/
+  grid-row: 1 / 3;
+}
 
-p {
-  color: #797b3a;
+.lesson-box-06 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+.lesson-box-05 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 4;
+  grid-row: 1 / 3;
+}
+
+.lesson-box-04 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 4 / 6;
+}
+
+.lesson-box-03 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 4 / 6;
+}
+
+.lesson-box-02 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 3;
+  grid-row: 4 / 6;
+}
+
+.lesson-box-01 {
+  border-style: double solid double;
+  border-color: #77212E;
+  background-color: #9f9c99;
+  border-width: 3px;
+  text-align: center;
+  grid-column: 4;
+  grid-row: 4 / 6;
+}
+
+p
+{  color: #797b3a;
   font-size: 1em;
   padding: .5em;
   border: none;
@@ -184,7 +246,7 @@ img {
   padding: .5rem;
 }
 
-.dog {
+.dog-1 {
   border: 1px solid black;
   display: block;
   width: 90%;
@@ -194,13 +256,21 @@ img {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-.dog:hover {
+.dog-1:hover {
   background-color: #2a293e;
   width: 18%;
   height: 18%;
   transform: rotate(180deg);
 }
-
+.dog-2 {
+  border: 1px solid black;
+  display: block;
+  width: 90%;
+  padding: .25em;
+  margin: .25em;
+  background-color: #264E36;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
 .doghouse {
   width: 33%;
   padding: .5em;
@@ -214,24 +284,28 @@ figcaption {
 
 .chair-box {
   border: 3px solid #264e36;
-  display: flex;
-  flex-flow: row wrap;
-  width: 33%;
-  justify-content: center;
+  display: grid;
+  grid-gap: 1em 1em;
+  width: 50%;
 }
 
-.dining {
-  width: 33%;
+
+.dining-1 {
+  width: 40%;
   padding: .5em;
   border: none;
   margin: .5em;
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.chairs {
-  width: 90%;
+.dining-2{
+  width: 40%;
   padding: .25em;
   border: none;
   margin: .25em;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 a:link, a:visited {
