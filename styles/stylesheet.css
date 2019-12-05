@@ -390,7 +390,7 @@ fieldset input {
 .checkbox input {
   position: absolute;
   opacity: 0;
-  curser: pointer;
+  cursor: crosshair;
   height: 0;
   width: 0;
 }
@@ -401,10 +401,11 @@ fieldset input {
   padding-left: 3em;
   margin-top: .75em;
   cursor: crosshair;
-   -webkit-user-select: none;
+/* THIS SECTION CAME UP AS AN ERROR IN THE VALIDATOR, BUT WAS USED IN THE LESSON 09 CONTENT AND ON W3SCHOOL'S SITE
+  -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
-   user-select: none;
+   user-select: none;*/
 }
 
 .checkmark {
