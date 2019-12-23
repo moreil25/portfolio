@@ -81,6 +81,7 @@ aside {
 div.lesson-box:nth-child(odd) {
   background-color: #ffffff;
 }
+/*changed the class name - that's why I lost this feature*/
 
 .headline {
   text-align: center;
