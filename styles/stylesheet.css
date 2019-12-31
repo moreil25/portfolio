@@ -99,13 +99,19 @@ div.lesson-box:nth-child(odd) {
 }
 /*changed the class name - that's why I lost this feature*/
 
+.pup-news {
+  padding: 1em;
+  border: 3px double #666831;
+  margin: 1em;
+}
+
 .headline {
   text-align: center;
   background-color: #9f9c99;
   padding: .5em;
   border: none;
   margin: 1em;
-  width: 90%;
+  width: auto;
 }
 
 .subhead {
@@ -255,8 +261,8 @@ div.lesson-box:nth-child(odd) {
   grid-row: 5 / 6;
 }
 
-p
-{  color: #666831;
+p {
+  color: #666831;
   font-size: 1em;
   padding: .5em;
   border: none;
@@ -283,48 +289,88 @@ img {
   padding: .5rem;
 }
 
-.dog-1 {
-  border: 1px solid black;
-  display: block;
-  width: 90%;
-  padding: .25em;
-  margin: .25em;
-  background-color: #264E36;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
+.dog-box {
+  display: grid;
+  grid-gap: 1em 1em;
+  width: auto;
 }
 
-.dog-1:hover {
-  background-color: #2a293e;
-  width: 18%;
-  height: 18%;
-  transform: rotate(180deg);
+img.dog-3 {
+  width: 80%;
+  margin: 1rem;
+  padding: .5rem;
+}
+img.dog-2 {
+  width: 80%;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+img.dog-1 {
+  width: 80%;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.dog-3 {
+  border: 1px solid black;
+  display: block;
+  width: 75%;
+  padding: .25em;
+  margin: .25em;
+  background-color: #1A3225;
+  grid-column: 1;
+  grid-row: 1;
 }
 .dog-2 {
   border: 1px solid black;
   display: block;
-  width: 90%;
+  width: 75%;
   padding: .25em;
   margin: .25em;
-  background-color: #264E36;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  background-color: #1A3225;
+  grid-column: 2;
+  grid-row: 1;
 }
 
-.doghouse {
+.dog-1 {
+  border: 1px solid black;
+  display: block;
+  width:75%;
+  padding: .25em;
+  margin: .25em;
+  background-color: #1A3225;
+  /*transition: width 2s, height 2s, background-color 2s, transform 2s;*/
+  grid-column: 3;
+  grid-row: 1;
+}
+
+/*.dog-1:hover {
+  background-color: #2a293e;
+  width: 18%;
+  height: 18%;
+  transform: rotate(180deg);
+}*/
+
+/*.doghouse {
   width: 33%;
   padding: .5em;
   border: none;
   margin: .5em;
-}
+}*/
 
 figcaption {
   text-align: center;
+  color: #9f9c99;
 }
-
+.other {
+  text-align: center;
+}
 .chair-box {
-  border: 3px solid #264e36;
+  /*border: 3px solid #264e36;*/
   display: grid;
   grid-gap: 1em 1em;
-  width: 66%;
+  width: auto;
 }
 
 img.projects {
